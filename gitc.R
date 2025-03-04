@@ -1,6 +1,6 @@
-install.packages(c("coop", "dendextend", "gplots", "ggnewscale", "ggridges", "ggupset", "rgl", "Rtsne", "umap", "), dependencies = TRUE)
+install.packages(c("coop", "dendextend", "gplots", "ggnewscale", "ggridges", "ggupset", "rgl", "Rtsne", "umap"), dependencies = TRUE)
 
-install.packages(c("devtools", "usethis"), dependencies = TRUE)
+install.packages("devtools", dependencies = TRUE)
 
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
